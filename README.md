@@ -21,31 +21,35 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 ## Table of Contents
 
-- [Basics](#basics)
-  - [Essentials](#essentials)
-  - [Consensus](#consensus)
-  - [Consistency](#consistency)
-  - [Workload](#workload)
-  - [Network](#network)
-  - [Quality](#quality)
-- [System Design](#system-design)
-  - [RDBMS](#rdbms)
-  - [NoSQL](#nosql)
-- [SQL Engine](#sql-engine)
-  - [Optimizer Framework](#optimizer-framework)
-  - [Transformation](#transformation)
-  - [Nested Query](#nested-query)
-  - [Functional Dependencies](#functional-dependencies)
-  - [Join Order](#join-order)
-  - [Cost Model](#cost-model)
-  - [Statistics](#statistics)
-  - [Probabilistic Counting](#probabilistic-counting)
-  - [Execution Engine](#execution-engine)
-  - [MPP Optimizations](#mpp-optimizations)
-- [Storage Engine](#storage-engine)
-  - [Storage Structure](#storage-structure)
-  - [Transaction](#transaction)
-  - [Scheduling](#scheduling)
+- [Database Papers](#database-papers)
+  - [Contribution](#contribution)
+  - [Table of Contents](#table-of-contents)
+  - [Basics](#basics)
+    - [Essentials](#essentials)
+    - [Consensus](#consensus)
+    - [Consistency](#consistency)
+    - [Workload](#workload)
+    - [Network](#network)
+    - [Quality](#quality)
+    - [Diagnosis and Tuning](#diagnosis-and-tuning)
+  - [System Design](#system-design)
+    - [RDBMS](#rdbms)
+    - [NoSQL](#nosql)
+  - [SQL Engine](#sql-engine)
+    - [Optimizer Framework](#optimizer-framework)
+    - [Transformation](#transformation)
+    - [Nested Query](#nested-query)
+    - [Functional Dependencies](#functional-dependencies)
+    - [Join Order](#join-order)
+    - [Cost Model](#cost-model)
+    - [Statistics](#statistics)
+    - [Probabilistic Counting](#probabilistic-counting)
+    - [Execution Engine](#execution-engine)
+    - [MPP Optimizations](#mpp-optimizations)
+  - [Storage Engine](#storage-engine)
+    - [Storage Structure](#storage-structure)
+    - [Transaction](#transaction)
+    - [Scheduling](#scheduling)
 ## Basics
 
 ### Essentials
@@ -89,6 +93,12 @@ Any contribution that can help improve this list and make it more comprehensive 
 ### Quality
 
 - [Testing the Accuracy of Query Optimizers](https://dl.acm.org/doi/pdf/10.1145/2304510.2304525) (2012) - Gu, Zhongxian, Mohamed A. Soliman, and Florian M.
+
+### Diagnosis and Tuning
+
+- [Automatic SQL Tuning in Oracle 10g](papers/diagnosis-and-tuning/automatic-sql-tuning-in-oracle-10g.pdf) (2004) - Benoit Dageville, Dinesh Das, et al.
+- [Automatic Performance Diagnosis and Tuning in Oracle](papers/diagnosis-and-tuning/automatic-performance-diagnosis-and-tuning-in-oracle.pdf) (2005) - Karl Dias, Mark Ramacher, et al.
+
 
 ## System Design
 
