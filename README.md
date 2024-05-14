@@ -25,9 +25,6 @@ Any contribution that can help improve this list and make it more comprehensive 
   - [Essentials](#essentials)
   - [Consensus](#consensus)
   - [Consistency](#consistency)
-  - [Workload](#workload)
-  - [Network](#network)
-  - [Quality](#quality)
 - [System Design](#system-design)
   - [RDBMS](#rdbms)
   - [NoSQL](#nosql)
@@ -46,6 +43,11 @@ Any contribution that can help improve this list and make it more comprehensive 
   - [Storage Structure](#storage-structure)
   - [Transaction](#transaction)
   - [Scheduling](#scheduling)
+- [Miscellaneous](#miscellaneous)
+  - [Workload](#workload)
+  - [Network](#network)
+  - [Quality](#quality)
+  - [Diagnosis and Tuning](#diagnosis-and-tuning)
 ## Basics
 
 ### Essentials
@@ -75,21 +77,6 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Anna: A kvs for any scale](papers/consistency/anna:-a-kvs-for-any-scale.pdf) (2018) - Wu, Chenggang, et al.
 - [Strong and efficient consistency with consistency-aware durability](https://dl.acm.org/doi/pdf/10.1145/3423138) (2021) - Ganesan, Aishwarya, et al. .
 
-### Workload
-
-- [TPC-H Analyzed: Hidden Messages and Lessons Learned from an Influential Benchmark](https://www.researchgate.net/profile/Peter-Boncz/publication/291257517_TPC-H_Analyzed_Hidden_Messages_and_Lessons_Learned_from_an_Influential_Benchmark/links/5852dbf708ae95fd8e1d749b/TPC-H-Analyzed-Hidden-Messages-and-Lessons-Learned-from-an-Influential-Benchmark.pdff) (2013) - Boncz, Peter, Thomas Neumann, and Orri Erling.
-- [Quantifying TPCH Choke Points and Their Optimizations](https://dl.acm.org/doi/pdf/10.14778/3389133.3389138) (2020) - Dreseler, Markus, et al.
-
-### Network
-
-- [The End of Slow Networks: It's Time for a Redesign](papers/network/the-end-of-slow-networks:-it's-time-for-a-redesign.pdf) (2015) - Binnig, Carsten, et al.
-- [Accelerating Relational Databases by Leveraging Remote Memory and RDMA](https://dl.acm.org/doi/pdf/10.1145/2882903.2882949) (2016) - Li, Feng, et al.
-- [Don't Hold My Data Hostage: A Case for Client Protocol Redesign](https://dl.acm.org/doi/pdf/10.14778/3115404.3115408) (2017) - Raasveldt, Mark, and Hannes Mühleisen.
-
-### Quality
-
-- [Testing the Accuracy of Query Optimizers](https://dl.acm.org/doi/pdf/10.1145/2304510.2304525) (2012) - Gu, Zhongxian, Mohamed A. Soliman, and Florian M.
-
 ## System Design
 
 ### RDBMS
@@ -102,7 +89,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Spanner: Google's globally distributed database](https://dl.acm.org/doi/pdf/10.1145/2491245) (2013) - Corbett, James C., et al.
 - [Online, Asynchronous Schema Change in F1](https://dl.acm.org/doi/pdf/10.14778/2536222.2536230) (2013) - Rae, Ian, et al.
 - [Amazon aurora: Design considerations for high throughput cloud-native relational databases](https://dl.acm.org/doi/pdf/10.1145/3035918.3056101) (2017) - Verbitski, Alexandre, et al.
-- [Looking Back at Postgres](http://arxiv.org/abs/1901.01973) (2019) - Hellerstein, Joseph M.
+- [Looking Back at Postgres](papers/rdbms/looking-back-at-postgres.pdf) (2019) - Hellerstein, Joseph M.
 - [CockroachDB: The Resilient Geo-Distributed SQL Database](https://dl.acm.org/doi/pdf/10.1145/3318464.3386134) (2020) - Taft, Rebecca, et al.
 - [F1 Lightning: HTAP as a Service](https://dl.acm.org/doi/pdf/10.14778/3415478.3415553) (2020) - Yang, Jiacheng, et al. .
 - [TiDB: a Raft-based HTAP database](https://dl.acm.org/doi/pdf/10.14778/3415478.3415535) (2020) - Huang, Dongxu, et al.
@@ -129,7 +116,6 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [The Volcano Optimizer Generator- Extensibility and Efficient Search](papers/optimizer-framework/the-volcano-optimizer-generator--extensibility-and-efficient-search.pdf) (1993) - Graefe, Goetz, and William J. McKenna.
 - [The Cascades Framework for Query Optimization](papers/optimizer-framework/the-cascades-framework-for-query-optimization.pdf) (1995) - Graefe, Goetz.
 - [ An Overview of Query Optimization in Relational Systems](https://dl.acm.org/doi/pdf/10.1145/275487.275492) (1998) - Chaudhuri, Surajit.
-- [LEO – DB2’s LEarning Optimizer](papers/optimizer-framework/leo-–-db2’s-learning-optimizer.pdf) (2001) - Stillger, Michael, et al.
 - [Robust Query Processing through Progressive Optimization](https://dl.acm.org/doi/pdf/10.1145/1007568.1007642) (2004) - Markl, Volker, et al.
 - [Orca: A Modular Query Optimizer Architecture for Big Data](https://dl.acm.org/doi/pdf/10.1145/2588555.2595637) (2014) - Soliman, Mohamed A., et al.
 - [Parallelizing Query Optimization on Shared-Nothing Architectures](papers/optimizer-framework/parallelizing-query-optimization-on-shared-nothing-architectures.pdf) (2015) - Trummer, Immanuel, and Christoph Koch.
@@ -208,6 +194,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 - [Towards Estimation Error Guarantees for Distinct Values](https://dl.acm.org/doi/pdf/10.1145/335168.335230) (2000) - Charikar, Moses, et al.
 - [Distinct Sampling for Highly-Accurate Answers to Distinct Values Queries and Event Reports](papers/probabilistic-counting/distinct-sampling-for-highly-accurate-answers-to-distinct-values-queries-and-event-reports.pdf) (2001) - Gibbons, Phillip B.
+- [LEO – DB2’s LEarning Optimizer](papers/probabilistic-counting/leo-–-db2’s-learning-optimizer.pdf) (2001) - Stillger, Michael, et al.
 - [An Improved Data Stream Summary: The Count-Min Sketch and its Applications, Journal of Algorithms](papers/probabilistic-counting/an-improved-data-stream-summary:-the-count-min-sketch-and-its-applications,-journal-of-algorithms.pdf) (2005) - Cormode, Graham, and Shan Muthukrishnan.
 - [New Estimation Algorithms for Streaming Data: Count-min Can Do More](https://www.academia.edu/download/31052190/cmm.pdf) (2007) - Deng, Fan, and Davood Rafiei.
 - [Preventing Bad Plans by Bounding the Impact of Cardinality Estimation Errors](https://dl.acm.org/doi/pdf/10.14778/1687627.1687738) (2009) - Moerkotte, Guido, Thomas Neumann, and Gabriele Steidl.
@@ -287,4 +274,26 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Autoscaling Tiered Cloud Storage in Anna](https://dl.acm.org/doi/pdf/10.14778/3311880.3311881) (2019) - Wu, Chenggang, Vikram Sreekanti, and Joseph M. Hellerstein.
 - [Adaptive HTAP through Elastic Resource Scheduling](https://dl.acm.org/doi/pdf/10.1145/3318464.3389783) (2020) - Raza, Aunn, et al.
 - [MorphoSys: Automatic Physical Design Metamorphosis for Distributed Database Systems](https://dl.acm.org/doi/pdf/10.14778/3424573.3424578) (2020) - Abebe, Michael, Brad Glasbergen, and Khuzaima Daudjee.
+
+## Miscellaneous
+
+### Workload
+
+- [TPC-H Analyzed: Hidden Messages and Lessons Learned from an Influential Benchmark](https://www.researchgate.net/profile/Peter-Boncz/publication/291257517_TPC-H_Analyzed_Hidden_Messages_and_Lessons_Learned_from_an_Influential_Benchmark/links/5852dbf708ae95fd8e1d749b/TPC-H-Analyzed-Hidden-Messages-and-Lessons-Learned-from-an-Influential-Benchmark.pdff) (2013) - Boncz, Peter, Thomas Neumann, and Orri Erling.
+- [Quantifying TPCH Choke Points and Their Optimizations](https://dl.acm.org/doi/pdf/10.14778/3389133.3389138) (2020) - Dreseler, Markus, et al.
+
+### Network
+
+- [The End of Slow Networks: It's Time for a Redesign](papers/network/the-end-of-slow-networks:-it's-time-for-a-redesign.pdf) (2015) - Binnig, Carsten, et al.
+- [Accelerating Relational Databases by Leveraging Remote Memory and RDMA](https://dl.acm.org/doi/pdf/10.1145/2882903.2882949) (2016) - Li, Feng, et al.
+- [Don't Hold My Data Hostage: A Case for Client Protocol Redesign](https://dl.acm.org/doi/pdf/10.14778/3115404.3115408) (2017) - Raasveldt, Mark, and Hannes Mühleisen.
+
+### Quality
+
+- [Testing the Accuracy of Query Optimizers](https://dl.acm.org/doi/pdf/10.1145/2304510.2304525) (2012) - Gu, Zhongxian, Mohamed A. Soliman, and Florian M.
+
+### Diagnosis and Tuning
+
+- [Automatic SQL Tuning in Oracle 10g](papers/diagnosis-and-tuning/automatic-sql-tuning-in-oracle-10g.pdf) (2004) - Dageville B, Das D, Dias K, et al.
+- [Automatic Performance Diagnosis and Tuning in Oracle](papers/diagnosis-and-tuning/automatic-performance-diagnosis-and-tuning-in-oracle.pdf) (2005) - Dias K, Ramacher M, Shaft U, et al.
 
