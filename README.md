@@ -55,7 +55,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [A relational model of data for large shared data banks](https://dl.acm.org/doi/pdf/10.1145/362384.362685) (1970) - Codd, Edgar F.
 - [SEQUEL: A structured English query language](https://dl.acm.org/doi/pdf/10.1145/800296.811515) (1974) - Chamberlin, Donald D., and Raymond F. Boyce.
 - [INGRES: a relational data base system](https://dl.acm.org/doi/pdf/10.1145/1499949.1500029) (1975) - Held, G. D., M. R. Stonebraker, and Eugene Wong.
-- [Extending the database relational model to capture more meaning](https://dl.acm.org/doi/pdf/10.1145/320107.320109) (1979) - Codd, Edgar F. .
+- [Extending the database relational model to capture more meaning](https://dl.acm.org/doi/pdf/10.1145/320107.320109) (1979) - Codd, Edgar F.
 - [A critique of the SQL database language](https://dl.acm.org/doi/pdf/10.1145/984549.984551) (1984) - Date, C. J.
 
 ### Consensus
@@ -65,7 +65,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Consensus: Bridging theory and practice](papers/consensus/consensus:-bridging-theory-and-practice.pdf) (2014) - Ongaro, Diego.
 - [In search of an understandable consensus algorithm (extended version)](papers/consensus/in-search-of-an-understandable-consensus-algorithm-(extended-version).pdf) (2014) - Ongaro, Diego, and John Ousterhout.
 - [Distributed consensus revised](papers/consensus/distributed-consensus-revised.pdf) (2019) - Howard, Heidi.
-- [A Generalised Solution to Distributed Consensus](papers/consensus/a-generalised-solution-to-distributed-consensus.pdf) (2019) - Howard, Heidi, and Richard Mortier. .
+- [A Generalised Solution to Distributed Consensus](papers/consensus/a-generalised-solution-to-distributed-consensus.pdf) (2019) - Howard, Heidi, and Richard Mortier.
 - [Paxos vs Raft: Have we reached consensus on distributed consensus?](https://dl.acm.org/doi/pdf/10.1145/3380787.3393681) (2020) - Howard, Heidi, and Richard Mortier.
 
 ### Consistency
@@ -75,7 +75,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Ark: A Real-World Consensus Implementation](papers/consistency/ark:-a-real-world-consensus-implementation.pdf) (2014) - Kasheff, Zardosht, and Leif Walsh.
 - [PolarFS: an ultra-low latency and failure resilient distributed file system for shared storage cloud database](https://dl.acm.org/doi/pdf/10.14778/3229863.3229872) (2018) - Cao, Wei, et al.
 - [Anna: A kvs for any scale](papers/consistency/anna:-a-kvs-for-any-scale.pdf) (2018) - Wu, Chenggang, et al.
-- [Strong and efficient consistency with consistency-aware durability](https://dl.acm.org/doi/pdf/10.1145/3423138) (2021) - Ganesan, Aishwarya, et al. .
+- [Strong and efficient consistency with consistency-aware durability](https://dl.acm.org/doi/pdf/10.1145/3423138) (2021) - Ganesan, Aishwarya, et al.
 
 ## System Design
 
@@ -91,7 +91,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Amazon aurora: Design considerations for high throughput cloud-native relational databases](https://dl.acm.org/doi/pdf/10.1145/3035918.3056101) (2017) - Verbitski, Alexandre, et al.
 - [Looking Back at Postgres](papers/rdbms/looking-back-at-postgres.pdf) (2019) - Hellerstein, Joseph M.
 - [CockroachDB: The Resilient Geo-Distributed SQL Database](https://dl.acm.org/doi/pdf/10.1145/3318464.3386134) (2020) - Taft, Rebecca, et al.
-- [F1 Lightning: HTAP as a Service](https://dl.acm.org/doi/pdf/10.14778/3415478.3415553) (2020) - Yang, Jiacheng, et al. .
+- [F1 Lightning: HTAP as a Service](https://dl.acm.org/doi/pdf/10.14778/3415478.3415553) (2020) - Yang, Jiacheng, et al.
 - [TiDB: a Raft-based HTAP database](https://dl.acm.org/doi/pdf/10.14778/3415478.3415535) (2020) - Huang, Dongxu, et al.
 - [PolarDB Serverless: A Cloud Native Database for Disaggregated Data Centers](https://dl.acm.org/doi/pdf/10.1145/3448016.3457560) (2021) - Cao, Wei, et al.
 
@@ -112,10 +112,10 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Access Path Selection in a Relational Database Management System](https://dl.acm.org/doi/pdf/10.1145/582095.582099) (1979) - Selinger, P. Griffiths, et al.
 - [Query Optimization by Simulated Annealing](https://dl.acm.org/doi/pdf/10.1145/38713.38722) (1987) - Ioannidis, Yannis E., and Eugene Wong.
 - [The EXODUS Optimizer Generator](https://dl.acm.org/doi/pdf/10.1145/38713.38734) (1987) - Graefe, Goetz, and David J. DeWitt.
-- [Extensible/Rule Based Query Rewrite Optimization in Starburst](https://dl.acm.org/doi/pdf/10.1145/141484.130294) (1992) - Pirahesh, Hamid, Joseph M. Hellerstein, and Waqar Hasan. .
+- [Extensible/Rule Based Query Rewrite Optimization in Starburst](https://dl.acm.org/doi/pdf/10.1145/141484.130294) (1992) - Pirahesh, Hamid, Joseph M. Hellerstein, and Waqar Hasan.
 - [The Volcano Optimizer Generator- Extensibility and Efficient Search](papers/optimizer-framework/the-volcano-optimizer-generator--extensibility-and-efficient-search.pdf) (1993) - Graefe, Goetz, and William J. McKenna.
 - [The Cascades Framework for Query Optimization](papers/optimizer-framework/the-cascades-framework-for-query-optimization.pdf) (1995) - Graefe, Goetz.
-- [ An Overview of Query Optimization in Relational Systems](https://dl.acm.org/doi/pdf/10.1145/275487.275492) (1998) - Chaudhuri, Surajit.
+- [An Overview of Query Optimization in Relational Systems](https://dl.acm.org/doi/pdf/10.1145/275487.275492) (1998) - Chaudhuri, Surajit.
 - [Robust Query Processing through Progressive Optimization](https://dl.acm.org/doi/pdf/10.1145/1007568.1007642) (2004) - Markl, Volker, et al.
 - [Orca: A Modular Query Optimizer Architecture for Big Data](https://dl.acm.org/doi/pdf/10.1145/2588555.2595637) (2014) - Soliman, Mohamed A., et al.
 - [Parallelizing Query Optimization on Shared-Nothing Architectures](papers/optimizer-framework/parallelizing-query-optimization-on-shared-nothing-architectures.pdf) (2015) - Trummer, Immanuel, and Christoph Koch.
@@ -126,7 +126,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Processing queries with quantifiers a horticultural approach](https://dl.acm.org/doi/pdf/10.1145/588058.588075) (1983) - Dayal, Umeshwar.
 - [Translating SQL into relational algebra: Optimization, semantics, and equivalence of SQL queries](https://www.academia.edu/download/50687636/tse.1985.23222320161202-29901-8u86ef.pdf) (1985) - Ceri, Stefano, and Georg Gottlob.
 - [Grammar-like Functional Rules for Representing Query Optimization Alternatives,](https://dl.acm.org/doi/pdf/10.1145/971701.50204) (1988) - Lohman, Guy M.
-- [Query Optimization by Predicate Move-Around](https://www.researchgate.net/profile/Inderpal-Mumick/publication/2754592_Query_Optimization_by_Predicate_Move-Around/links/0f317534d437e49755000000/Query-Optimization-by-Predicate-Move-Around.pdf) (1994) - Levy, Alon Y., Inderpal Singh Mumick, and Yehoshua Sagiv. .
+- [Query Optimization by Predicate Move-Around](https://www.researchgate.net/profile/Inderpal-Mumick/publication/2754592_Query_Optimization_by_Predicate_Move-Around/links/0f317534d437e49755000000/Query-Optimization-by-Predicate-Move-Around.pdf) (1994) - Levy, Alon Y., Inderpal Singh Mumick, and Yehoshua Sagiv.
 - [Eager Aggregation and Lazy Aggregation](https://www.researchgate.net/profile/Per-Ake-Larson/publication/2733082_Eager_Aggregation_and_Lazy_Aggregation/links/02bfe50ce6de3dad7c000000/Eager-Aggregation-and-Lazy-Aggregation.pdf) (1995) - Yan, Weipeng P., and Per-Bike Larson.
 - [Parameterized Queries and Nesting Equivalences](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-2000-31.pdf) (2000) - Galindo-Legaria, C. A.
 - [Cost-based query transformation in Oracle](https://www.researchgate.net/profile/Rafi-Ahmed-2/publication/221311318_Cost-Based_Query_Transformation_in_Oracle/links/572bbc5e08aef7c7e2c6b829/Cost-Based-Query-Transformation-in-Oracle.pdf) (2006) - Ahmed, Rafi, et al.
@@ -142,17 +142,17 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [A Unitied Approach to Processing Queries That Contain Nested Subqueries, Aggregates, and Quantifiers](papers/nested-query/a-unitied-approach-to-processing-queries-that-contain-nested-subqueries,-aggregates,-and-quantifiers.pdf) (1987) - Dayal, Umeshwar.
 - [Optimization of correlated SQL queries in a relational database management system](papers/nested-query/optimization-of-correlated-sql-queries-in-a-relational-database-management-system.pdf) (1998) - Jou, Michelle M., Ting Yu Leung, and Mir Hamid Pirahesh.
 - [Orthogonal Optimization of Subqueries and Aggregation](https://dl.acm.org/doi/pdf/10.1145/376284.375748) (2001) - Galindo-Legaria, César, and Milind Joshi.
-- [WinMagic : Subquery Elimination Using Window Aggregation](https://dl.acm.org/doi/pdf/10.1145/872757.872840) (2003) - Zuzarte, Calisto, et al. .
+- [WinMagic : Subquery Elimination Using Window Aggregation](https://dl.acm.org/doi/pdf/10.1145/872757.872840) (2003) - Zuzarte, Calisto, et al.
 - [Execution strategies for SQL subqueries](https://dl.acm.org/doi/pdf/10.1145/1247480.1247598) (2007) - Elhemali, Mostafa, et al.
 - [Enhanced subquery optimizations in Oracle](https://dl.acm.org/doi/pdf/10.14778/1687553.1687563) (2009) - Bellamkonda, Srikanth, et al.
 - [Unnesting Arbitrary Queries](papers/nested-query/unnesting-arbitrary-queries.pdf) (2015) - Neumann, Thomas, and Alfons Kemper.
 
 ### Functional Dependencies
 
-- [Fundamental Techniques for Order Optimization](https://dl.acm.org/doi/pdf/10.1145/233269.233320) (1996) - Simmen, David, Eugene Shekita, and Timothy Malkemus. .
+- [Fundamental Techniques for Order Optimization](https://dl.acm.org/doi/pdf/10.1145/233269.233320) (1996) - Simmen, David, Eugene Shekita, and Timothy Malkemus.
 - [[Thesis] Exploiting Functional Dependence in Query Optimization](papers/functional-dependencies/[thesis]-exploiting-functional-dependence-in-query-optimization.pdf) (2000) - Paulley, Glenn Norman.
 - [An Efficient Framework for Order Optimization](papers/functional-dependencies/an-efficient-framework-for-order-optimization.pdf) (2004) - Neumann, Thomas, and Guido Moerkotte.
-- [Incorporating Partitioning and Parallel Plans into the SCOPE Optimizer](papers/functional-dependencies/incorporating-partitioning-and-parallel-plans-into-the-scope-optimizer.pdf) (2010) - Zhou, Jingren, Per-Ake Larson, and Ronnie Chaiken. .
+- [Incorporating Partitioning and Parallel Plans into the SCOPE Optimizer](papers/functional-dependencies/incorporating-partitioning-and-parallel-plans-into-the-scope-optimizer.pdf) (2010) - Zhou, Jingren, Per-Ake Larson, and Ronnie Chaiken.
 - [Accelerating Queries with GroupBy and Join by Group join](https://dl.acm.org/doi/pdf/10.14778/3402707.3402723) (2011) - Moerkotte, Guido, and Thomas Neumann.
 
 ### Join Order
@@ -234,7 +234,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [The five-minute rule ten years later, and other computer storage rules of thumb](https://dl.acm.org/doi/pdf/10.1145/271074.271094) (1997) - Gray, Jim, and Goetz Graefe.
 - [The Five Minute Rule 20 Years Later and How Flash Memory Changes the Rules](https://dl.acm.org/doi/pdf/10.1145/1363189.1363198) (2008) - Graefe, Goetz.
 - [A Comparison of Fractal Trees to Log-Structured Merge (LSM) Trees](papers/storage-structure/a-comparison-of-fractal-trees-to-log-structured-merge-(lsm)-trees.pdf) (2014) - Kuszmaul, Bradley C.
-- [Design Tradeoffs of Data Access Methods](https://dl.acm.org/doi/pdf/10.1145/2882903.2912569) (2016) - Athanassoulis, Manos, and Stratos Idreos. .
+- [Design Tradeoffs of Data Access Methods](https://dl.acm.org/doi/pdf/10.1145/2882903.2912569) (2016) - Athanassoulis, Manos, and Stratos Idreos.
 - [Designing Access Methods: The RUM Conjecture](papers/storage-structure/designing-access-methods:-the-rum-conjecture.pdf) (2016) - Athanassoulis, Manos, et al.
 - [The five minute rule thirty years later and its impact on the storage hierarchy](https://infoscience.epfl.ch/record/230398/files/adms-talk.pdf) (2017) - Appuswamy, Raja, et al.
 - [WiscKey: Separating Keys from Values in SSD-conscious Storage](https://dl.acm.org/doi/pdf/10.1145/3033273) (2017) - Lu, Lanyue, et al.
@@ -246,8 +246,8 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Umbra: A Disk-Based System with In-Memory Performance](papers/storage-structure/umbra:-a-disk-based-system-with-in-memory-performance.pdf) (2020) - Neumann, Thomas, and Michael J. Freitag.
 - [XIndex: A Scalable Learned Index for Multicore Data Storage](https://dl.acm.org/doi/pdf/10.1145/3332466.3374547) (2020) - Tang, Chuzhe, et al.
 - [The PGM-index: a fully-dynamic compressed learned index with provable worst-case bounds](https://dl.acm.org/doi/pdf/10.14778/3389133.3389135) (2020) - Ferragina, Paolo, and Giorgio Vinciguerra.
-- [From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees](papers/storage-structure/from-wisckey-to-bourbon:-a-learned-index-for-log-structured-merge-trees.pdf) (2020) - Dai, Yifan, et al. .
-- [CaaS-LSM: Compaction-as-a-Service for LSM-based Key-Value Stores in Storage Disaggregated Infrastructure](https://qiaolin-yu.github.io/pubs/V2mod124-yu.pdf) (2024) - Yu, Qiaolin et al.
+- [From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees](papers/storage-structure/from-wisckey-to-bourbon:-a-learned-index-for-log-structured-merge-trees.pdf) (2020) - Dai, Yifan, et al.
+- [CaaS-LSM: Compaction-as-a-Service for LSM-based Key-Value Stores in Storage Disaggregated Infrastructure](papers/storage-structure/caas-lsm:-compaction-as-a-service-for-lsm-based-key-value-stores-in-storage-disaggregated-infrastructure.pdf) (2024) - Yu, Qiaolin et al.
 
 ### Transaction
 
