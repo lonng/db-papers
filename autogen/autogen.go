@@ -92,9 +92,9 @@ func main() {
 	cmd.Flags().StringVarP(&opt.sheetID, "sheet-id", "i", "", "Online table sheet ID")
 	cmd.Flags().StringVarP(&opt.sheetName, "sheet-name", "n", "", "Online table sheet Name")
 	cmd.Flags().StringVarP(&opt.title, "title", "T", "Database Papers", "Title of the README.md")
-	cmd.Flags().StringVarP(&opt.description, "description", "D", description, "Description of the README.md")
-	cmd.Flags().StringVarP(&opt.directory, "directory", "d", "papers", "Directory to save the papers")
-	cmd.Flags().StringVarP(&opt.output, "output", "O", "README.md", "Output file name (default to README.md)")
+	cmd.Flags().StringVarP(&opt.description, "description", "d", description, "Description of the README.md")
+	cmd.Flags().StringVarP(&opt.directory, "directory", "D", "papers", "Directory to save the papers")
+	cmd.Flags().StringVarP(&opt.output, "output", "o", "README.md", "Output file name (default to README.md)")
 
 	if err := cmd.Execute(); err != nil {
 		cobra.CheckErr(err)

@@ -1,0 +1,34 @@
+# This workflow will build a golang project
+# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-go
+
+name: README autogen
+
+on: workflow_dispatch
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Go
+      uses: actions/setup-go@v4
+      with:
+        go-version: '1.20'
+
+    - name: Build
+      run: cd autogen && go build -o ../bin/db-papers
+      
+    - name: Generate
+      env:
+        DB_PAPERS_ADDR_FORMAT: ${{ secrets.DB_PAPERS_ADDR_FORMAT }}
+        DB_PAPERS_SHEED_ID: ${{ secrets.DB_PAPERS_SHEED_ID }}
+        DB_PAPERS_SHEED_NAME: ${{ secrets.DB_PAPERS_SHEED_NAME }}
+      run: bin/db-papers --addr-format "$DB_PAPERS_ADDR_FORMAT" --sheet-id "$DB_PAPERS_SHEED_ID" --sheet-name "$DB_PAPERS_SHEED_NAME"
+
+    - uses: stefanzweifel/git-auto-commit-action@v5
+      with:
+        commit_message: auto update README.md
+        file_pattern: 'README.md papers/*'
