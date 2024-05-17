@@ -25,43 +25,41 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 ## Table of Contents
 
-- [Database Papers](#database-papers)
-  - [Contribution](#contribution)
-  - [Table of Contents](#table-of-contents)
-  - [Basics](#basics)
-    - [Essentials](#essentials)
-    - [Consensus](#consensus)
-    - [Consistency](#consistency)
-  - [System Design](#system-design)
-    - [RDBMS](#rdbms)
-    - [NoSQL](#nosql)
-  - [SQL Engine](#sql-engine)
-    - [Optimizer Framework](#optimizer-framework)
-    - [Transformation](#transformation)
-    - [Nested Query](#nested-query)
-    - [Functional Dependencies](#functional-dependencies)
-    - [Join Order](#join-order)
-    - [Cost Model](#cost-model)
-    - [Statistics](#statistics)
-    - [Probabilistic Counting](#probabilistic-counting)
-    - [Execution Engine](#execution-engine)
-    - [MPP Optimizations](#mpp-optimizations)
-  - [Storage Engine](#storage-engine)
-    - [Storage Structure](#storage-structure)
-    - [Transaction](#transaction)
-    - [Scheduling](#scheduling)
-  - [Miscellaneous](#miscellaneous)
-    - [Workload](#workload)
-    - [Network](#network)
-    - [Quality](#quality)
-    - [Diagnosis and Tuning](#diagnosis-and-tuning)
+- [Basics](#basics)
+  - [Essentials](#essentials)
+  - [Consensus](#consensus)
+  - [Consistency](#consistency)
+- [System Design](#system-design)
+  - [Architecture](#architecture)
+  - [RDBMS](#rdbms)
+  - [NoSQL](#nosql)
+- [SQL Engine](#sql-engine)
+  - [Optimizer Framework](#optimizer-framework)
+  - [Transformation](#transformation)
+  - [Nested Query](#nested-query)
+  - [Functional Dependencies](#functional-dependencies)
+  - [Join Order](#join-order)
+  - [Cost Model](#cost-model)
+  - [Statistics](#statistics)
+  - [Probabilistic Counting](#probabilistic-counting)
+  - [Execution Engine](#execution-engine)
+  - [MPP Optimizations](#mpp-optimizations)
+- [Storage Engine](#storage-engine)
+  - [Storage Structure](#storage-structure)
+  - [Transaction](#transaction)
+  - [Scheduling](#scheduling)
+- [Miscellaneous](#miscellaneous)
+  - [Workload](#workload)
+  - [Network](#network)
+  - [Quality](#quality)
+  - [Diagnosis and Tuning](#diagnosis-and-tuning)
 
 ## Basics
 
 ### Essentials
 
 - [A relational model of data for large shared data banks](papers/essentials/a-relational-model-of-data-for-large-shared-data-banks.pdf) (1970) - Codd, Edgar F.
-- [SEQUEL: A structured English query language](https://dl.acm.org/doi/pdf/10.1145/800296.811515) (1974) - Chamberlin, Donald D., and Raymond F. Boyce.
+- [SEQUEL: A structured English query language](papers/essentials/sequel:-a-structured-english-query-language.pdf) (1974) - Chamberlin, Donald D., and Raymond F. Boyce.
 - [INGRES: a relational data base system](https://dl.acm.org/doi/pdf/10.1145/1499949.1500029) (1975) - Held, G. D., M. R. Stonebraker, and Eugene Wong.
 - [Extending the database relational model to capture more meaning](https://dl.acm.org/doi/pdf/10.1145/320107.320109) (1979) - Codd, Edgar F.
 - [A critique of the SQL database language](https://dl.acm.org/doi/pdf/10.1145/984549.984551) (1984) - Date, C. J.
@@ -87,13 +85,16 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 ## System Design
 
+### Architecture
+
+- [Architecture of a Database System. Foundations and Trends in Databases](papers/architecture/architecture-of-a-database-system.-foundations-and-trends-in-databases.pdf) (2007) - Hellerstein J M, Stonebraker M, Hamilton J.
+
 ### RDBMS
 
 - [System R: Relational Approach to Database Management](https://dl.acm.org/doi/pdf/10.1145/320455.320457) (1976) - Astrahan, Morton M., et al.
 - [The design and implementation of INGRES](https://dl.acm.org/doi/10.1145/320473.320476) (1976) - Stonebraker, Michael, et al.
 - [The design of Postgres](https://dl.acm.org/doi/pdf/10.1145/16856.16888) (1986) - Stonebraker, Michael, and Lawrence A. Rowe.
 - [Query Processing in Main Memory Database Management Systems](https://dl.acm.org/doi/pdf/10.1145/16894.16878) (1986) - Lehman, Tobin J., and Michael J. Carey.
-- [Architecture of a Database System. Foundations and Trends in Databases](papers/rdbms/architecture-of-a-database-system.-foundations-and-trends-in-databases.pdf) (2007) - Hellerstein J M, Stonebraker M, Hamilton J.
 - [Megastore: Providing Scalable, Highly Available Storage for Interactive Services](papers/rdbms/megastore:-providing-scalable,-highly-available-storage-for-interactive-services.pdf) (2011) - Baker J, Bond C, Corbett J C, et al.
 - [Spanner: Google's globally distributed database](https://dl.acm.org/doi/pdf/10.1145/2491245) (2013) - Corbett, James C., et al.
 - [Online, Asynchronous Schema Change in F1](https://dl.acm.org/doi/pdf/10.14778/2536222.2536230) (2013) - Rae, Ian, et al.
