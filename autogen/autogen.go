@@ -46,6 +46,10 @@ Any contribution that can help improve this list and make it more comprehensive 
 - **Remove a paper**: If you think a paper is no longer relevant or useful, please file an issue to suggest its removal.
 - **General suggestions**: If you have any general suggestions or feedback on how to improve this list, please file an issue to share your thoughts.`
 
+var badges = []string{
+	"[![README autogen](https://github.com/lonng/db-papers/actions/workflows/autogen.yml/badge.svg)](https://github.com/lonng/db-papers/actions/workflows/autogen.yml)",
+}
+
 type (
 	options struct {
 		addrFormat  string
@@ -165,20 +169,35 @@ func convert(opt *options) error {
 		})
 	}
 
+	var output string
+	generate := func(s string, newline int) {
+		output += s + strings.Repeat("\n", newline)
+	}
+
+	// Generate Badges if exists
+	if len(badges) > 0 {
+		for _, badge := range badges {
+			generate(badge, 1)
+		}
+		generate("", 1)
+		generate("---", 2)
+	}
+
 	// Generate Title and Description
-	output := fmt.Sprintf("# %s\n\n%s\n\n", opt.title, opt.description)
+	generate(fmt.Sprintf("# %s", opt.title), 2)
+	generate(opt.description, 2)
 
 	// Generate Table Of Contents
-	output += "## Table of Contents\n\n"
+	generate("## Table of Contents", 2)
 	for _, s := range sections {
-		output += fmt.Sprintf("- [%s](#%s)\n", s.name, strings.ToLower(strings.ReplaceAll(s.name, " ", "-")))
+		generate(fmt.Sprintf("- [%s](#%s)", s.name, strings.ToLower(strings.ReplaceAll(s.name, " ", "-"))), 1)
 		for _, m := range s.modules {
-			output += fmt.Sprintf("  - [%s](#%s)\n", m.name, strings.ToLower(strings.ReplaceAll(m.name, " ", "-")))
+			generate(fmt.Sprintf("  - [%s](#%s)", m.name, strings.ToLower(strings.ReplaceAll(m.name, " ", "-"))), 1)
 		}
 	}
 
 	// Add a new line
-	output += "\n"
+	generate("", 1)
 
 	padding := func(space int) string {
 		return strings.Repeat(" ", space)
@@ -186,9 +205,9 @@ func convert(opt *options) error {
 
 	// Generate Sections
 	for _, s := range sections {
-		output += fmt.Sprintf("## %s\n\n", s.name)
+		generate(fmt.Sprintf("## %s", s.name), 2)
 		for _, m := range s.modules {
-			output += fmt.Sprintf("### %s\n\n", strings.ReplaceAll(m.name, ":", " -"))
+			generate(fmt.Sprintf("### %s", strings.ReplaceAll(m.name, ":", " -")), 2)
 			// Sort all records by year
 			sort.Slice(m.records, func(i, j int) bool {
 				return m.records[i].year < m.records[j].year
@@ -252,13 +271,13 @@ func convert(opt *options) error {
 				}
 
 				if local != "" {
-					output += fmt.Sprintf("- [%s](%s) (%s) - %s\n", r.title, local, r.year, r.authors)
+					generate(fmt.Sprintf("- [%s](%s) (%s) - %s", r.title, local, r.year, r.authors), 1)
 				} else {
-					output += fmt.Sprintf("- [%s](%s) (%s) - %s\n", r.title, r.url, r.year, r.authors)
+					generate(fmt.Sprintf("- [%s](%s) (%s) - %s", r.title, r.url, r.year, r.authors), 1)
 				}
 
 				if i == len(m.records)-1 {
-					output += "\n"
+					generate("", 1)
 				}
 			}
 		}

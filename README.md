@@ -1,3 +1,7 @@
+[![README autogen](https://github.com/lonng/db-papers/actions/workflows/autogen.yml/badge.svg)](https://github.com/lonng/db-papers/actions/workflows/autogen.yml)
+
+---
+
 # Database Papers
 
 This is a comprehensive list of papers on database theory for understanding and building database systems. It covers various aspects of database systems, including the essential theoretical background, classic system design, and multiple modules within the database.
@@ -21,33 +25,36 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 ## Table of Contents
 
-- [Basics](#basics)
-  - [Essentials](#essentials)
-  - [Consensus](#consensus)
-  - [Consistency](#consistency)
-- [System Design](#system-design)
-  - [RDBMS](#rdbms)
-  - [NoSQL](#nosql)
-- [SQL Engine](#sql-engine)
-  - [Optimizer Framework](#optimizer-framework)
-  - [Transformation](#transformation)
-  - [Nested Query](#nested-query)
-  - [Functional Dependencies](#functional-dependencies)
-  - [Join Order](#join-order)
-  - [Cost Model](#cost-model)
-  - [Statistics](#statistics)
-  - [Probabilistic Counting](#probabilistic-counting)
-  - [Execution Engine](#execution-engine)
-  - [MPP Optimizations](#mpp-optimizations)
-- [Storage Engine](#storage-engine)
-  - [Storage Structure](#storage-structure)
-  - [Transaction](#transaction)
-  - [Scheduling](#scheduling)
-- [Miscellaneous](#miscellaneous)
-  - [Workload](#workload)
-  - [Network](#network)
-  - [Quality](#quality)
-  - [Diagnosis and Tuning](#diagnosis-and-tuning)
+- [Database Papers](#database-papers)
+  - [Contribution](#contribution)
+  - [Table of Contents](#table-of-contents)
+  - [Basics](#basics)
+    - [Essentials](#essentials)
+    - [Consensus](#consensus)
+    - [Consistency](#consistency)
+  - [System Design](#system-design)
+    - [RDBMS](#rdbms)
+    - [NoSQL](#nosql)
+  - [SQL Engine](#sql-engine)
+    - [Optimizer Framework](#optimizer-framework)
+    - [Transformation](#transformation)
+    - [Nested Query](#nested-query)
+    - [Functional Dependencies](#functional-dependencies)
+    - [Join Order](#join-order)
+    - [Cost Model](#cost-model)
+    - [Statistics](#statistics)
+    - [Probabilistic Counting](#probabilistic-counting)
+    - [Execution Engine](#execution-engine)
+    - [MPP Optimizations](#mpp-optimizations)
+  - [Storage Engine](#storage-engine)
+    - [Storage Structure](#storage-structure)
+    - [Transaction](#transaction)
+    - [Scheduling](#scheduling)
+  - [Miscellaneous](#miscellaneous)
+    - [Workload](#workload)
+    - [Network](#network)
+    - [Quality](#quality)
+    - [Diagnosis and Tuning](#diagnosis-and-tuning)
 
 ## Basics
 
