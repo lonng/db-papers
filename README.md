@@ -60,7 +60,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 - [A relational model of data for large shared data banks](papers/essentials/a-relational-model-of-data-for-large-shared-data-banks.pdf) (1970) - Codd, Edgar F.
 - [SEQUEL: A structured English query language](papers/essentials/sequel:-a-structured-english-query-language.pdf) (1974) - Chamberlin, Donald D., and Raymond F. Boyce.
-- [INGRES: a relational data base system](https://dl.acm.org/doi/pdf/10.1145/1499949.1500029) (1975) - Held, G. D., M. R. Stonebraker, and Eugene Wong.
+- [INGRES: a relational data base system](papers/essentials/ingres:-a-relational-data-base-system.pdf) (1975) - Held, G. D., M. R. Stonebraker, and Eugene Wong.
 - [Extending the database relational model to capture more meaning](https://dl.acm.org/doi/pdf/10.1145/320107.320109) (1979) - Codd, Edgar F.
 - [A critique of the SQL database language](https://dl.acm.org/doi/pdf/10.1145/984549.984551) (1984) - Date, C. J.
 
@@ -268,6 +268,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [ARIES: A transaction recovery method supporting fine-granularity locking and partial rollbacks using write-ahead logging](https://dl.acm.org/doi/pdf/10.1145/128765.128770) (1992) - Mohan C, Haderle D, Lindsay B, et al.
 - [A Critique of ANSI SQL Isolation Levels](https://dl.acm.org/doi/pdf/10.1145/568271.223785) (1995) - Berenson, Hal, et al.
 - [Generalized Isolation Level Definitions](papers/transaction/generalized-isolation-level-definitions.pdf) (2000) - Adya, Atul, Barbara Liskov, and Patrick O'Neil.
+- [Large-scale Incremental Processing Using Distributed Transactions and Notifications](papers/transaction/large-scale-incremental-processing-using-distributed-transactions-and-notifications.pdf) (2010) - Peng D, Dabek F.
 - [Serializable Snapshot Isolation in PostgreSQL](https://arxiv.org/pdf/1208.4179.pdf,) (2012) - Ports, Dan RK, and Kevin Grittner.
 - [Calvin: Fast Distributed Transactions for Partitioned Database Systems](https://dl.acm.org/doi/pdf/10.1145/2213836.2213838) (2012) - Thomson, Alexander, et al.
 - [MaaT: effective and scalable coordination of distributed transactions in the cloud](https://dl.acm.org/doi/pdf/10.14778/2732269.2732270) (2014) - Mahmoud, Hatem A., et al.

@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"io"
+	"io/fs"
 	"net/http"
 	"net/url"
 	"os"
@@ -203,6 +204,8 @@ func convert(opt *options) error {
 		return strings.Repeat(" ", space)
 	}
 
+	knownFiles := map[string]struct{}{}
+
 	// Generate Sections
 	for _, s := range sections {
 		generate(fmt.Sprintf("## %s", s.name), 2)
@@ -227,6 +230,7 @@ func convert(opt *options) error {
 						strings.ToLower(strings.ReplaceAll(m.name, " ", "-")))
 					file := strings.ToLower(strings.ReplaceAll(r.title, " ", "-")) + ".pdf"
 					path := filepath.Join(dir, strings.ReplaceAll(file, "/", "-"))
+					knownFiles[path] = struct{}{}
 					if _, err := os.Stat(dir); os.IsNotExist(err) {
 						if err := os.MkdirAll(dir, 0755); err != nil {
 							return err
@@ -280,6 +284,23 @@ func convert(opt *options) error {
 					generate("", 1)
 				}
 			}
+		}
+	}
+
+	// Clean redundant files
+	if opt.directory != "" {
+		err := filepath.WalkDir(opt.directory, func(path string, d fs.DirEntry, err error) error {
+			if d.IsDir() {
+				return nil
+			}
+			if _, ok := knownFiles[path]; !ok {
+				fmt.Println("Delete unknown file", path)
+				return os.Remove(path)
+			}
+			return nil
+		})
+		if err != nil {
+			return err
 		}
 	}
 
