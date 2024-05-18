@@ -61,7 +61,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [A relational model of data for large shared data banks](papers/essentials/a-relational-model-of-data-for-large-shared-data-banks.pdf) (1970) - Codd, Edgar F.
 - [SEQUEL: A structured English query language](papers/essentials/sequel:-a-structured-english-query-language.pdf) (1974) - Chamberlin, Donald D., and Raymond F. Boyce.
 - [INGRES: a relational data base system](papers/essentials/ingres:-a-relational-data-base-system.pdf) (1975) - Held, G. D., M. R. Stonebraker, and Eugene Wong.
-- [Extending the database relational model to capture more meaning](https://dl.acm.org/doi/pdf/10.1145/320107.320109) (1979) - Codd, Edgar F.
+- [Extending the database relational model to capture more meaning](papers/essentials/extending-the-database-relational-model-to-capture-more-meaning.pdf) (1979) - Codd, Edgar F.
 - [A critique of the SQL database language](https://dl.acm.org/doi/pdf/10.1145/984549.984551) (1984) - Date, C. J.
 
 ### Consensus
