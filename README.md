@@ -62,7 +62,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [SEQUEL: A structured English query language](papers/essentials/sequel:-a-structured-english-query-language.pdf) (1974) - Chamberlin, Donald D., and Raymond F. Boyce.
 - [INGRES: a relational data base system](papers/essentials/ingres:-a-relational-data-base-system.pdf) (1975) - Held, G. D., M. R. Stonebraker, and Eugene Wong.
 - [Extending the database relational model to capture more meaning](papers/essentials/extending-the-database-relational-model-to-capture-more-meaning.pdf) (1979) - Codd, Edgar F.
-- [A critique of the SQL database language](https://dl.acm.org/doi/pdf/10.1145/984549.984551) (1984) - Date, C. J.
+- [A critique of the SQL database language](papers/essentials/a-critique-of-the-sql-database-language.pdf) (1984) - Date, C. J.
 
 ### Consensus
 
@@ -168,6 +168,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 - [Access paths in the" Abe" statistical query facility](https://dl.acm.org/doi/pdf/10.1145/582353.582382) (1982) - Klug, Anthony.
 - [Extending the Algebraic Framework of Query Processing to Handle Outerjoins](papers/join-order/extending-the-algebraic-framework-of-query-processing-to-handle-outerjoins.pdf) (1984) - RosenthaI, A., and D. Reiner.
+- [Hypergraph based reorderings of outer join queries with complex predicates](https://dl.acm.org/doi/pdf/10.1145/223784.223847) (1995) - Bhargava G, Goel P, Iyer B.
 - [Analysis of Two Existing and One New Dynamic Programming Algorithm for the Generation of Optimal Bushy Join Trees without Cross Products](https://www.researchgate.net/profile/Thomas_Neumann2/publication/47861835_Analysis_of_Two_Existing_and_One_New_Dynamic_Programming_Algorithm_for_the_Generation_of_Optimal_Bushy_Join_Trees_without_Cross_Products/links/0912f506d90ad19031000000.pdff) (2006) - Moerkotte, Guido, and Thomas Neumann.
 - [Dynamic programming strikes back](https://dl.acm.org/doi/pdf/10.1145/1376616.1376672) (2008) - Moerkotte, Guido, and Thomas Neumann.
 - [On the Correct and Complete Enumeration of the Core Search Space](https://dl.acm.org/doi/pdf/10.1145/2463676.2465314) (2013) - Moerkotte, Guido, Pit Fender, and Marius Eich.
