@@ -14,6 +14,8 @@ import (
 	"strings"
 
 	"github.com/spf13/cobra"
+	"golang.org/x/text/cases"
+	"golang.org/x/text/language"
 )
 
 const (
@@ -221,7 +223,8 @@ func convert(opt *options) error {
 					r.authors = r.authors + "."
 				}
 
-				var local string
+				title := cases.Title(language.English).String(r.title)
+				url := r.url
 
 				// Download the paper
 				if opt.directory != "" && r.url != "" {
@@ -259,7 +262,7 @@ func convert(opt *options) error {
 						}
 					}
 
-					local = path
+					url = path
 
 					// Check if the file is a PDF
 					pdf, err := os.OpenFile(path, os.O_RDONLY, 0644)
@@ -268,17 +271,13 @@ func convert(opt *options) error {
 						_, err := io.ReadFull(pdf, magicNumber)
 						if err != nil || string(magicNumber) != "%PDF" {
 							_ = os.Remove(path)
-							local = ""
+							url = r.url
 						}
 					}
 
 				}
 
-				if local != "" {
-					generate(fmt.Sprintf("- [%s](%s) (%s) - %s", r.title, local, r.year, r.authors), 1)
-				} else {
-					generate(fmt.Sprintf("- [%s](%s) (%s) - %s", r.title, r.url, r.year, r.authors), 1)
-				}
+				generate(fmt.Sprintf("- [%s](%s) (%s) - %s", title, url, r.year, r.authors), 1)
 
 				if i == len(m.records)-1 {
 					generate("", 1)
