@@ -155,6 +155,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Execution strategies for SQL subqueries](https://dl.acm.org/doi/pdf/10.1145/1247480.1247598) (2007) - Elhemali, Mostafa, et al.
 - [Enhanced subquery optimizations in Oracle](https://dl.acm.org/doi/pdf/10.14778/1687553.1687563) (2009) - Bellamkonda, Srikanth, et al.
 - [Unnesting Arbitrary Queries](papers/nested-query/unnesting-arbitrary-queries.pdf) (2015) - Neumann, Thomas, and Alfons Kemper.
+- [The Complete Story of Joins](papers/nested-query/the-complete-story-of-joins.pdf) (2017) - Neumann, Thomas, Viktor Leis, and Alfons Kemper.
 
 ### Functional Dependencies
 
@@ -173,7 +174,6 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Dynamic programming strikes back](https://dl.acm.org/doi/pdf/10.1145/1376616.1376672) (2008) - Moerkotte, Guido, and Thomas Neumann.
 - [On the Correct and Complete Enumeration of the Core Search Space](https://dl.acm.org/doi/pdf/10.1145/2463676.2465314) (2013) - Moerkotte, Guido, Pit Fender, and Marius Eich.
 - [How Good Are Query Optimizers, Really?](https://dl.acm.org/doi/pdf/10.14778/2850583.2850594) (2015) - Leis, Viktor, et al.
-- [The Complete Story of Joins](papers/join-order/the-complete-story-of-joins.pdf) (2017) - Neumann, Thomas, Viktor Leis, and Alfons Kemper.
 - [Improving Join Reorderability with Compensation Operators](https://dl.acm.org/doi/pdf/10.1145/3183713.3183731) (2018) - Wang, TaiNing, and Chee-Yong Chan.
 - [Adaptive Optimization of Very Large Join Queries](https://dl.acm.org/doi/pdf/10.1145/3183713.3183733) (2018) - Neumann, Thomas, and Bernhard Radke.
 
@@ -219,6 +219,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [MonetDB/X100: Hyper-Pipelining Query Execution](https://www.researchgate.net/profile/Niels-Nes/publication/45338800_MonetDBX100_Hyper-Pipelining_Query_Execution/links/0deec520cd1e8a3607000000/MonetDB-X100-Hyper-Pipelining-Query-Execution.pdf) (2005) - Boncz, Peter A., Marcin Zukowski, and Niels Nes.
 - [Efficiently Compiling Efficient Query Plans for Modern Hardware](https://dl.acm.org/doi/pdf/10.14778/2002938.2002940) (2011) - Neumann, Thomas.
 - [Multi-Core, Main-Memory Joins: Sort vs. Hash Revisited](https://dl.acm.org/doi/pdf/10.14778/2732219.2732227) (2013) - Balkesen, Cagri, et al.
+- [Main-Memory Hash Joins on Modern Processor Architectures](papers/execution-engine/main-memory-hash-joins-on-modern-processor-architectures.pdf) (2014) - Balkesen Ç, Teubner J, Alonso G, et al.
 - [Morsel-Driven Parallelism: A NUMA-Aware Query Evaluation Framework for the Many-Core Age](https://dl.acm.org/doi/pdf/10.1145/2588555.2610507) (2014) - Leis, Viktor, et al.
 - [Relaxed Operator Fusion for In-Memory Databases: Making Compilation, Vectorization, and Prefetching Work Together At Last](https://dl.acm.org/doi/pdf/10.14778/3151113.3151114) (2017) - Menon, Prashanth, Todd C. Mowry, and Andrew Pavlo.
 - [Looking Ahead Makes Query Plans Robust](https://dl.acm.org/doi/pdf/10.14778/3090163.3090167) (2017) - Zhu, Jianqiao, et al.
