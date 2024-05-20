@@ -10,7 +10,7 @@ The list is organized into different categories and subcategories for easy navig
 
 This collection serves as a learning and training resource primarily for the Tencent Cloud Database Team and is also open to external researchers, students, and learners interested in database systems.
 
-**In case you are reading this and making the effort to comprehend these papers, we would really like to have a conversation with you regarding opportunities at Tencent Cloud Database Team.**
+**In case you are reading this and making the effort to comprehend these papers, we would really like to have a conversation with you regarding opportunities at Tencent Cloud Database Team ([@Henry L.](https://x.com/henrylonng)).**
 
 ## Contribution
 
