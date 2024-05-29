@@ -170,6 +170,8 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Access Paths In The" Abe" Statistical Query Facility](https://dl.acm.org/doi/pdf/10.1145/582353.582382) (1982) - Klug, Anthony.
 - [Extending The Algebraic Framework Of Query Processing To Handle Outerjoins](papers/join-order/extending-the-algebraic-framework-of-query-processing-to-handle-outerjoins.pdf) (1984) - RosenthaI, A., and D. Reiner.
 - [Hypergraph Based Reorderings Of Outer Join Queries With Complex Predicates](https://dl.acm.org/doi/pdf/10.1145/223784.223847) (1995) - Bhargava G, Goel P, Iyer B.
+- [Rapid Bushy Join-Order Optimization With Cartesian Products.](https://dl.acm.org/doi/pdf/10.1145/235968.233317) (1996) - Vance B, Maier D.
+- [Outerjoin Simplication And Reordering For Query Optimization](https://dl.acm.org/doi/pdf/10.1145/244810.244812) (1997) - Galindo-Legaria C, Rosenthal A.
 - [Using Eels, A Practical Approach To Outerjoin And Antijoin Reordering](papers/join-order/using-eels,-a-practical-approach-to-outerjoin-and-antijoin-reordering.pdf) (2001) - Rao J, Lindsay B, Lohman G, et al.
 - [Analysis Of Two Existing And One New Dynamic Programming Algorithm For The Generation Of Optimal Bushy Join Trees Without Cross Products](https://www.researchgate.net/profile/Thomas_Neumann2/publication/47861835_Analysis_of_Two_Existing_and_One_New_Dynamic_Programming_Algorithm_for_the_Generation_of_Optimal_Bushy_Join_Trees_without_Cross_Products/links/0912f506d90ad19031000000.pdff) (2006) - Moerkotte, Guido, and Thomas Neumann.
 - [Optimal Top-Down Join Enumeration](https://dl.acm.org/doi/pdf/10.1145/1247480.1247567) (2007) - DeHaan D, Tompa F W.
