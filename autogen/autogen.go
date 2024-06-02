@@ -242,23 +242,32 @@ func convert(opt *options) error {
 
 					// Download the paper is not exists
 					if _, err := os.Stat(path); os.IsNotExist(err) {
-						paper, err := http.Get(r.url)
-						if err != nil {
-							return err
+						fetch := func() error {
+							paper, err := http.Get(r.url)
+							if err != nil {
+								return err
+							}
+
+							fmt.Println("Download Paper", r.title)
+							fmt.Println(padding(2), "url", r.url)
+							fmt.Println(padding(2), "path", path)
+
+							data, err := io.ReadAll(paper.Body)
+							if err != nil {
+								return err
+							}
+
+							// Write to file
+							if err := os.WriteFile(path, data, 0644); err != nil {
+								return err
+							}
+
+							return nil
 						}
 
-						fmt.Println("Download Paper", r.title)
-						fmt.Println(padding(2), "url", r.url)
-						fmt.Println(padding(2), "path", path)
-
-						data, err := io.ReadAll(paper.Body)
-						if err != nil {
-							return err
-						}
-
-						// Write to file
-						if err := os.WriteFile(path, data, 0644); err != nil {
-							return err
+						if err := fetch(); err != nil {
+							fmt.Println(padding(2), "failed to download paper", err)
+							url = r.url
 						}
 					}
 
