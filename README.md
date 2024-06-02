@@ -43,8 +43,9 @@ Any contribution that can help improve this list and make it more comprehensive 
   - [Statistics](#statistics)
   - [Probabilistic Counting](#probabilistic-counting)
   - [Execution Engine](#execution-engine)
-  - [MPP Optimizations](#mpp-optimizations)
+  - [Parallel Execution](#parallel-execution)
 - [Storage Engine](#storage-engine)
+  - [Storage Media](#storage-media)
   - [Storage Structure](#storage-structure)
   - [Transaction](#transaction)
   - [Scheduling](#scheduling)
@@ -63,6 +64,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Ingres: A Relational Data Base System](papers/essentials/ingres:-a-relational-data-base-system.pdf) (1975) - Held, G. D., M. R. Stonebraker, and Eugene Wong.
 - [Extending The Database Relational Model To Capture More Meaning](papers/essentials/extending-the-database-relational-model-to-capture-more-meaning.pdf) (1979) - Codd, Edgar F.
 - [A Critique Of The Sql Database Language](papers/essentials/a-critique-of-the-sql-database-language.pdf) (1984) - Date, C. J.
+- [A Critique Of Snapshot Isolation](https://dl.acm.org/doi/pdf/10.1145/2168836.2168853) (2012) - Yabandeh M, Gómez Ferro D.
 
 ### Consensus
 
@@ -169,9 +171,9 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 - [Access Paths In The" Abe" Statistical Query Facility](https://dl.acm.org/doi/pdf/10.1145/582353.582382) (1982) - Klug, Anthony.
 - [Extending The Algebraic Framework Of Query Processing To Handle Outerjoins](papers/join-order/extending-the-algebraic-framework-of-query-processing-to-handle-outerjoins.pdf) (1984) - RosenthaI, A., and D. Reiner.
+- [Outerjoin Simplication And Reordering For Query Optimization](https://dl.acm.org/doi/pdf/10.1145/244810.244812) (1993) - Galindo-Legaria C, Rosenthal A.
 - [Hypergraph Based Reorderings Of Outer Join Queries With Complex Predicates](https://dl.acm.org/doi/pdf/10.1145/223784.223847) (1995) - Bhargava G, Goel P, Iyer B.
 - [Rapid Bushy Join-Order Optimization With Cartesian Products.](https://dl.acm.org/doi/pdf/10.1145/235968.233317) (1996) - Vance B, Maier D.
-- [Outerjoin Simplication And Reordering For Query Optimization](https://dl.acm.org/doi/pdf/10.1145/244810.244812) (1997) - Galindo-Legaria C, Rosenthal A.
 - [Using Eels, A Practical Approach To Outerjoin And Antijoin Reordering](papers/join-order/using-eels,-a-practical-approach-to-outerjoin-and-antijoin-reordering.pdf) (2001) - Rao J, Lindsay B, Lohman G, et al.
 - [Analysis Of Two Existing And One New Dynamic Programming Algorithm For The Generation Of Optimal Bushy Join Trees Without Cross Products](https://www.researchgate.net/profile/Thomas_Neumann2/publication/47861835_Analysis_of_Two_Existing_and_One_New_Dynamic_Programming_Algorithm_for_the_Generation_of_Optimal_Bushy_Join_Trees_without_Cross_Products/links/0912f506d90ad19031000000.pdff) (2006) - Moerkotte, Guido, and Thomas Neumann.
 - [Optimal Top-Down Join Enumeration](https://dl.acm.org/doi/pdf/10.1145/1247480.1247567) (2007) - DeHaan D, Tompa F W.
@@ -231,9 +233,9 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Surf: Practical Range Query Filtering With Fast Succinct Tries](https://dl.acm.org/doi/pdf/10.1145/3183713.3196931) (2018) - Zhang, Huanchen, et al.
 - [Adaptive Execution Of Compiled Queries](https://15721.courses.cs.cmu.edu/spring2019/papers/19-compilation/kohn-icde2018.pdff) (2018) - Kohn, André, Viktor Leis, and Thomas Neumann.
 
-### MPP Optimizations
+### Parallel Execution
 
-- [Db2 Parallel Edition](papers/mpp-optimizations/db2-parallel-edition.pdf) (1995) - Baru, Chaitanya K., et al.
+- [Db2 Parallel Edition](papers/parallel-execution/db2-parallel-edition.pdf) (1995) - Baru, Chaitanya K., et al.
 - [Parallel Sql Execution In Oracle 10G](https://dl.acm.org/doi/pdf/10.1145/1007568.1007666) (2004) - Cruanes, Thierry, Benoit Dageville, and Bhaskar Ghosh.
 - [Query Optimization In Microsoft Sql Server Pdw](https://dl.acm.org/doi/pdf/10.1145/2213836.2213953) (2012) - Shankar, Srinath, et al.
 - [Adaptive And Big Data Scale Parallel Execution In Oracle](https://dl.acm.org/doi/pdf/10.14778/2536222.2536235) (2013) - Bellamkonda, Srikanth, et al.
@@ -241,17 +243,20 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 ## Storage Engine
 
+### Storage Media
+
+- [The 5 Minute Rule For Trading Memory For Disc Accesses And The 5 Byte Rule For Trading Memory For Cpu Time](https://dl.acm.org/doi/pdf/10.1145/38713.38755) (1987) - Gray, Jim, and Franco Putzolu.
+- [The Five-Minute Rule Ten Years Later, And Other Computer Storage Rules Of Thumb](https://dl.acm.org/doi/pdf/10.1145/271074.271094) (1997) - Gray, Jim, and Goetz Graefe.
+- [The Five Minute Rule 20 Years Later And How Flash Memory Changes The Rules](https://dl.acm.org/doi/pdf/10.1145/1363189.1363198) (2008) - Graefe, Goetz.
+- [The Five Minute Rule Thirty Years Later And Its Impact On The Storage Hierarchy](papers/storage-media/the-five-minute-rule-thirty-years-later-and-its-impact-on-the-storage-hierarchy.pdf) (2017) - Appuswamy, Raja, et al.
+
 ### Storage Structure
 
 - [The Ubiquitous B-Tree](https://dl.acm.org/doi/pdf/10.1145/356770.356776) (1979) - Comer, Douglas.
-- [The 5 Minute Rule For Trading Memory For Disc Accesses And The 5 Byte Rule For Trading Memory For Cpu Time](https://dl.acm.org/doi/pdf/10.1145/38713.38755) (1987) - Gray, Jim, and Franco Putzolu.
 - [The Log-Structured Merge-Tree (Lsm-Tree)](papers/storage-structure/the-log-structured-merge-tree-(lsm-tree).pdf) (1996) - O’Neil, Patrick, et al.
-- [The Five-Minute Rule Ten Years Later, And Other Computer Storage Rules Of Thumb](https://dl.acm.org/doi/pdf/10.1145/271074.271094) (1997) - Gray, Jim, and Goetz Graefe.
-- [The Five Minute Rule 20 Years Later And How Flash Memory Changes The Rules](https://dl.acm.org/doi/pdf/10.1145/1363189.1363198) (2008) - Graefe, Goetz.
 - [A Comparison Of Fractal Trees To Log-Structured Merge (Lsm) Trees](papers/storage-structure/a-comparison-of-fractal-trees-to-log-structured-merge-(lsm)-trees.pdf) (2014) - Kuszmaul, Bradley C.
 - [Design Tradeoffs Of Data Access Methods](https://dl.acm.org/doi/pdf/10.1145/2882903.2912569) (2016) - Athanassoulis, Manos, and Stratos Idreos.
 - [Designing Access Methods: The Rum Conjecture](papers/storage-structure/designing-access-methods:-the-rum-conjecture.pdf) (2016) - Athanassoulis, Manos, et al.
-- [The Five Minute Rule Thirty Years Later And Its Impact On The Storage Hierarchy](papers/storage-structure/the-five-minute-rule-thirty-years-later-and-its-impact-on-the-storage-hierarchy.pdf) (2017) - Appuswamy, Raja, et al.
 - [Wisckey: Separating Keys From Values In Ssd-Conscious Storage](https://dl.acm.org/doi/pdf/10.1145/3033273) (2017) - Lu, Lanyue, et al.
 - [Managing Non-Volatile Memory In Database Systems](https://dl.acm.org/doi/pdf/10.1145/3183713.3196897) (2018) - van Renen, Alexander, et al.
 - [Leanstore: In-Memory Data Management Beyond Main Memory](papers/storage-structure/leanstore:-in-memory-data-management-beyond-main-memory.pdf) (2018) - Leis, Viktor, et al.
