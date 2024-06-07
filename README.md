@@ -220,7 +220,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 ### Execution Engine
 
-- [Queryevaluationtechniquesfor Largedatabas](https://dl.acm.org/doi/pdf/10.1145/152610.152611) (1993) - Graefe G.
+- [Queryevaluationtechniquesfor Largedatabases](https://dl.acm.org/doi/pdf/10.1145/152610.152611) (1993) - Graefe G.
 - [Volcano - An Extensible And Parallel Query Evaluation System](papers/execution-engine/volcano---an-extensible-and-parallel-query-evaluation-system.pdf) (1994) - Graefe, Goetz.
 - [Monetdb/X100: Hyper-Pipelining Query Execution](https://www.researchgate.net/profile/Niels-Nes/publication/45338800_MonetDBX100_Hyper-Pipelining_Query_Execution/links/0deec520cd1e8a3607000000/MonetDB-X100-Hyper-Pipelining-Query-Execution.pdf) (2005) - Boncz, Peter A., Marcin Zukowski, and Niels Nes.
 - [Efficiently Compiling Efficient Query Plans For Modern Hardware](https://dl.acm.org/doi/pdf/10.14778/2002938.2002940) (2011) - Neumann, Thomas.
@@ -253,6 +253,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 ### Storage Structure
 
 - [The Ubiquitous B-Tree](https://dl.acm.org/doi/pdf/10.1145/356770.356776) (1979) - Comer, Douglas.
+- [Principles Of Database Buffer Management](https://dl.acm.org/doi/pdf/10.1145/1994.2022) (1984) - Effelsberg W, Haerder T.
 - [The Log-Structured Merge-Tree (Lsm-Tree)](papers/storage-structure/the-log-structured-merge-tree-(lsm-tree).pdf) (1996) - O’Neil, Patrick, et al.
 - [A Comparison Of Fractal Trees To Log-Structured Merge (Lsm) Trees](papers/storage-structure/a-comparison-of-fractal-trees-to-log-structured-merge-(lsm)-trees.pdf) (2014) - Kuszmaul, Bradley C.
 - [Design Tradeoffs Of Data Access Methods](https://dl.acm.org/doi/pdf/10.1145/2882903.2912569) (2016) - Athanassoulis, Manos, and Stratos Idreos.
