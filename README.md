@@ -25,35 +25,38 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 ## Table of Contents
 
-- [Basics](#basics)
-  - [Essentials](#essentials)
-  - [Consensus](#consensus)
-  - [Consistency](#consistency)
-- [System Design](#system-design)
-  - [Architecture](#architecture)
-  - [RDBMS](#rdbms)
-  - [NoSQL](#nosql)
-- [SQL Engine](#sql-engine)
-  - [Optimizer Framework](#optimizer-framework)
-  - [Transformation](#transformation)
-  - [Nested Query](#nested-query)
-  - [Functional Dependencies](#functional-dependencies)
-  - [Join Order](#join-order)
-  - [Cost Model](#cost-model)
-  - [Statistics](#statistics)
-  - [Probabilistic Counting](#probabilistic-counting)
-  - [Execution Engine](#execution-engine)
-  - [Parallel Execution](#parallel-execution)
-- [Storage Engine](#storage-engine)
-  - [Storage Media](#storage-media)
-  - [Storage Structure](#storage-structure)
-  - [Transaction](#transaction)
-  - [Scheduling](#scheduling)
-- [Miscellaneous](#miscellaneous)
-  - [Workload](#workload)
-  - [Network](#network)
-  - [Quality](#quality)
-  - [Diagnosis and Tuning](#diagnosis-and-tuning)
+- [Database Papers](#database-papers)
+  - [Contribution](#contribution)
+  - [Table of Contents](#table-of-contents)
+  - [Basics](#basics)
+    - [Essentials](#essentials)
+    - [Consensus](#consensus)
+    - [Consistency](#consistency)
+  - [System Design](#system-design)
+    - [Architecture](#architecture)
+    - [RDBMS](#rdbms)
+    - [NoSQL](#nosql)
+  - [SQL Engine](#sql-engine)
+    - [Optimizer Framework](#optimizer-framework)
+    - [Transformation](#transformation)
+    - [Nested Query](#nested-query)
+    - [Functional Dependencies](#functional-dependencies)
+    - [Join Order](#join-order)
+    - [Cost Model](#cost-model)
+    - [Statistics](#statistics)
+    - [Probabilistic Counting](#probabilistic-counting)
+    - [Execution Engine](#execution-engine)
+    - [Parallel Execution](#parallel-execution)
+  - [Storage Engine](#storage-engine)
+    - [Storage Media](#storage-media)
+    - [Storage Structure](#storage-structure)
+    - [Transaction](#transaction)
+    - [Scheduling](#scheduling)
+  - [Miscellaneous](#miscellaneous)
+    - [Workload](#workload)
+    - [Network](#network)
+    - [Quality](#quality)
+    - [Diagnosis and Tuning](#diagnosis-and-tuning)
 
 ## Basics
 
@@ -208,6 +211,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 
 ### Probabilistic Counting
 
+- [Probabilistic counting algorithms for data base applications](https://algo.inria.fr/flajolet/Publications/FlMa85.pdf) (1985) - Flajolet, Philippe; Martin, G. Nigel.
 - [Towards Estimation Error Guarantees For Distinct Values](https://dl.acm.org/doi/pdf/10.1145/335168.335230) (2000) - Charikar, Moses, et al.
 - [Distinct Sampling For Highly-Accurate Answers To Distinct Values Queries And Event Reports](papers/probabilistic-counting/distinct-sampling-for-highly-accurate-answers-to-distinct-values-queries-and-event-reports.pdf) (2001) - Gibbons, Phillip B.
 - [Leo – Db2’s Learning Optimizer](papers/probabilistic-counting/leo-–-db2’s-learning-optimizer.pdf) (2001) - Stillger, Michael, et al.
