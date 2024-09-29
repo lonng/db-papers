@@ -233,7 +233,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Morsel-Driven Parallelism: A Numa-Aware Query Evaluation Framework For The Many-Core Age](https://dl.acm.org/doi/pdf/10.1145/2588555.2610507) (2014) - Leis, Viktor, et al.
 - [Relaxed Operator Fusion For In-Memory Databases: Making Compilation, Vectorization, And Prefetching Work Together At Last](papers/execution-engine/relaxed-operator-fusion-for-in-memory-databases-making-compilation-vectorization-and-prefetching-work-together-at-last.pdf) (2017) - Menon, Prashanth, Todd C. Mowry, and Andrew Pavlo.
 - [Looking Ahead Makes Query Plans Robust](papers/execution-engine/looking-ahead%20-makes-query-plans-robust.pdf) (2017) - Zhu, Jianqiao, et al.
-- [Everything You Always Wanted To Know About Compiled And Vectorized Queries But Were Afraid To Ask](https://dl.acm.org/doi/pdf/10.14778/3275366.3284966) (2018) - Kersten, Timo, et al.
+- [Everything You Always Wanted To Know About Compiled And Vectorized Queries But Were Afraid To Ask](papers/execution-engine/everything-you-always-wanted-to-know-about-compiled-and-cectorized-queries-but-were-afraid-to-ask.pdf) (2018) - Kersten, Timo, et al.
 - [Surf: Practical Range Query Filtering With Fast Succinct Tries](https://dl.acm.org/doi/pdf/10.1145/3183713.3196931) (2018) - Zhang, Huanchen, et al.
 - [Adaptive Execution Of Compiled Queries](https://15721.courses.cs.cmu.edu/spring2019/papers/19-compilation/kohn-icde2018.pdff) (2018) - Kohn, André, Viktor Leis, and Thomas Neumann.
 
