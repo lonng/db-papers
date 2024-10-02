@@ -230,7 +230,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Efficiently Compiling Efficient Query Plans For Modern Hardware](https://dl.acm.org/doi/pdf/10.14778/2002938.2002940) (2011) - Neumann, Thomas.
 - [Multi-Core, Main-Memory Joins: Sort Vs. Hash Revisited](https://dl.acm.org/doi/pdf/10.14778/2732219.2732227) (2013) - Balkesen, Cagri, et al.
 - [Main-Memory Hash Joins On Modern Processor Architectures](papers/execution-engine/main-memory-hash-joins-on-modern-processor-architectures.pdf) (2014) - Balkesen Ç, Teubner J, Alonso G, et al.
-- [Morsel-Driven Parallelism: A Numa-Aware Query Evaluation Framework For The Many-Core Age](https://dl.acm.org/doi/pdf/10.1145/2588555.2610507) (2014) - Leis, Viktor, et al.
+- [Morsel-Driven Parallelism: A Numa-Aware Query Evaluation Framework For The Many-Core Age](papers/execution-engine/morsel-driven-parallelism-a-numa-aware-query-evaluation-framework-for-the-many-core-age.pdf) (2014) - Leis, Viktor, et al.
 - [Relaxed Operator Fusion For In-Memory Databases: Making Compilation, Vectorization, And Prefetching Work Together At Last](papers/execution-engine/relaxed-operator-fusion-for-in-memory-databases-making-compilation-vectorization-and-prefetching-work-together-at-last.pdf) (2017) - Menon, Prashanth, Todd C. Mowry, and Andrew Pavlo.
 - [Looking Ahead Makes Query Plans Robust](papers/execution-engine/looking-ahead%20-makes-query-plans-robust.pdf) (2017) - Zhu, Jianqiao, et al.
 - [Everything You Always Wanted To Know About Compiled And Vectorized Queries But Were Afraid To Ask](papers/execution-engine/everything-you-always-wanted-to-know-about-compiled-and-cectorized-queries-but-were-afraid-to-ask.pdf) (2018) - Kersten, Timo, et al.
