@@ -234,7 +234,6 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Relaxed Operator Fusion For In-Memory Databases: Making Compilation, Vectorization, And Prefetching Work Together At Last](papers/execution-engine/relaxed-operator-fusion-for-in-memory-databases-making-compilation-vectorization-and-prefetching-work-together-at-last.pdf) (2017) - Menon, Prashanth, Todd C. Mowry, and Andrew Pavlo.
 - [Looking Ahead Makes Query Plans Robust](papers/execution-engine/looking-ahead%20-makes-query-plans-robust.pdf) (2017) - Zhu, Jianqiao, et al.
 - [Everything You Always Wanted To Know About Compiled And Vectorized Queries But Were Afraid To Ask](papers/execution-engine/everything-you-always-wanted-to-know-about-compiled-and-cectorized-queries-but-were-afraid-to-ask.pdf) (2018) - Kersten, Timo, et al.
-- [Surf: Practical Range Query Filtering With Fast Succinct Tries](https://dl.acm.org/doi/pdf/10.1145/3183713.3196931) (2018) - Zhang, Huanchen, et al.
 - [Adaptive Execution Of Compiled Queries](https://15721.courses.cs.cmu.edu/spring2019/papers/19-compilation/kohn-icde2018.pdff) (2018) - Kohn, André, Viktor Leis, and Thomas Neumann.
 
 ### Parallel Execution
@@ -266,6 +265,7 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Managing Non-Volatile Memory In Database Systems](https://dl.acm.org/doi/pdf/10.1145/3183713.3196897) (2018) - van Renen, Alexander, et al.
 - [Leanstore: In-Memory Data Management Beyond Main Memory](papers/storage-structure/leanstore:-in-memory-data-management-beyond-main-memory.pdf) (2018) - Leis, Viktor, et al.
 - [The Case For Learned Index Structures](https://dl.acm.org/doi/pdf/10.1145/3183713.3196909) (2018) - Kraska, Tim, et al.
+- [SuRF: Practical Range Query Filtering With Fast Succinct Tries](papers/storage-structure/surf-practical-range-query-filtering-with-fast-succinct-tries.pdf) (2018) - Zhang, Huanchen, et al.
 - [Lsm-Based Storage Techniques: A Survey](papers/storage-structure/lsm-based-storage-techniques:-a-survey.pdf) (2019) - Luo, Chen, and Michael J. Carey.
 - [Learning Multi-Dimensional Indexes](https://dl.acm.org/doi/pdf/10.1145/3318464.3380579) (2019) - Nathan, Vikram, et al.
 - [Umbra: A Disk-Based System With In-Memory Performance](papers/storage-structure/umbra:-a-disk-based-system-with-in-memory-performance.pdf) (2020) - Neumann, Thomas, and Michael J. Freitag.
