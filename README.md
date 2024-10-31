@@ -57,6 +57,7 @@ Any contribution that can help improve this list and make it more comprehensive 
     - [Network](#network)
     - [Quality](#quality)
     - [Diagnosis and Tuning](#diagnosis-and-tuning)
+    - [Formats](#formats)
 
 ## Basics
 
@@ -324,3 +325,6 @@ Any contribution that can help improve this list and make it more comprehensive 
 - [Automatic Sql Tuning In Oracle 10G](papers/diagnosis-and-tuning/automatic-sql-tuning-in-oracle-10g.pdf) (2004) - Dageville B, Das D, Dias K, et al.
 - [Automatic Performance Diagnosis And Tuning In Oracle](papers/diagnosis-and-tuning/automatic-performance-diagnosis-and-tuning-in-oracle.pdf) (2005) - Dias K, Ramacher M, Shaft U, et al.
 
+### Formats
+
+- [A Deep Dive into Common Open Formats for Analytical DBMSs](./papers/formats/a-deep-dive-into-common-open-formats-for-analytical-dbmss.pdf) (2023) - Liu C, Pavlenko A, Interlandi M, et al.
